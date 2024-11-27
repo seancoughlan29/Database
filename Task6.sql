@@ -10,7 +10,6 @@
 -- ================================================================================
 
 DELIMITER $$
-
 CREATE PROCEDURE check_and_associate_song(
     IN song_id_input VARCHAR(16),
     IN album_id_input VARCHAR(16)
@@ -42,5 +41,4 @@ BEGIN
         WHERE song_id = song_id_input;
     END IF;
 END$$
-
 DELIMITER ;
