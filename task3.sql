@@ -1,6 +1,7 @@
 -- ===========================================================================================
 -- Author: Euan Jennings
--- Description: This view aggregates detailed performance data for each artist, including 
+-- Description: 
+-- This view aggregates detailed performance data for each artist, including 
 -- the number of concerts, songs performed, ticket sales metrics, and the last fan interaction.
 -- The data is filtered to include artists with at least one concert and an average ticket 
 -- price greater than 20.
