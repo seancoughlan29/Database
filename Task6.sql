@@ -1,3 +1,18 @@
+/* 
+Task 6
+
+Checks if song_id(SON_001) is already associated with album_id(ALB_001),
+if not it inserts the association into the album_songs table
+
+Gets song release date and album release date,if song release date
+is later then the album release date it updates song release date to match
+
+*presumes both song_id_input and album_id_input exist in their respective tables
+
+
+*/
+
+
 DELIMITER $$
 
 CREATE PROCEDURE check_and_associate_song(
